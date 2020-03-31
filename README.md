@@ -8,7 +8,10 @@ This project explores raw data of bike share trips in 3 different cities of the 
 It then displays specific statistical information based upon 3 filters: city, month and day of week
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+No credits at this time
