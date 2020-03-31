@@ -1,6 +1,9 @@
 ### Date created
 03/31/2020
 
+### Course information
+This Udacity course is "Programming for Data Science with Python Nanodegree Program"
+
 ### Project Bike Share
 
 ### Description
