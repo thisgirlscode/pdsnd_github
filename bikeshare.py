@@ -241,7 +241,7 @@ def see_raw_data(city_df):
 
 def main():
     pd.set_option('display.max_columns', 10)
-    pd.set_option('display.width', 1800)
+    pd.set_option('display.width', 1850)
 
     while True:
         city, month, day = get_filters()
