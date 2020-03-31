@@ -1,7 +1,9 @@
 import time
 import pandas as pd
 import numpy as np
-
+"""
+Welcome, thank you for checking out my code
+"""
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
