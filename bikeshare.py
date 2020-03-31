@@ -31,9 +31,9 @@ def get_filters():
     while True:
         try:
             if city == "":
-                city = input("Specify a city to analyze: ").lower().replace(" ", "_")
+                city = input("What city would you like to analyze? ").lower().replace(" ", "_")
                 if city not in cities_list:
-                    print("You can only enter the following options: all, chicago,new york city or washington")
+                    print("That is not a valid city. (Your options are all, chicago, new york city or washington")
                     city = ""
         except Exception as e:
             print("Exception occurred: {}".format(e))
@@ -42,7 +42,7 @@ def get_filters():
         if city in cities_list and month == "":
             try:
                 if month == "":
-                    month = input("Enter month (January through June only) (Enter \'all\' to disregard this filter): ").lower()
+                    month = input("What month would you like to explore (January through June only)? (Enter \'all\' to disregard this filter): ").lower()
                     if month not in months_list:
                         print("That is not a valid month. i.e.: January")
                         month = ""
@@ -53,7 +53,7 @@ def get_filters():
         elif city in cities_list and month in months_list:
             try:
                 if day == "":
-                    day = input("Enter day (Enter \'all\' to disregard this filter): ").lower()
+                    day = input("what day would you like to review? (Enter \'all\' to disregard this filter) ").lower()
                     if day not in days_list:
                         print("That is not a valid day. i.e.: Monday")
                         day = ""
